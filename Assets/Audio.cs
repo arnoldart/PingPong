@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UIElements;
 
 public class Audio : MonoBehaviour
 {
 	public Sound[] sounds;
 
-    // Start is called before the first frame update
+	// Start is called before the first frame update
     void Awake()
     {
         foreach(Sound s in sounds)
@@ -23,7 +24,7 @@ public class Audio : MonoBehaviour
 
 	void Start()
 	{
-		//Play("MainTheme");
+		Play("MainTheme");
 	}
 
 	// Update is called once per frame
@@ -35,6 +36,7 @@ public class Audio : MonoBehaviour
 			Debug.Log("Sound: " + name + " not found!");
 			return;
 		}
+		
 		s.source.Play();
 	}
 }
