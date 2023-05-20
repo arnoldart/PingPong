@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 253344083}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -749,7 +749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &523685251
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1213,8 +1213,8 @@ MonoBehaviour:
   player1Goal: {fileID: 1672570103}
   player2Paddle: {fileID: 897750322}
   player2Goal: {fileID: 1672570103}
-  Player1Text: {fileID: 1873472215}
-  Player2Text: {fileID: 1094737417}
+  Player1Text: {fileID: 1094737417}
+  Player2Text: {fileID: 1873472215}
 --- !u!4 &780142736
 Transform:
   m_ObjectHideFlags: 0
@@ -1556,7 +1556,7 @@ GameObject:
   - component: {fileID: 897750324}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1906,14 +1906,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: BallSound
-    clip: {fileID: 8300000, guid: ba6a4380e95a58f44bd350b4df348cb1, type: 3}
+    clip: {fileID: 8300000, guid: c28baf7706c2fdc48bbc7efe9fe87b4e, type: 3}
     volume: 0.124
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: MainTheme
-    clip: {fileID: 8300000, guid: 9bdea00a8e8ff0341bd5c7b40318f74e, type: 3}
-    volume: 0.046
+    clip: {fileID: 8300000, guid: b55055889ab3edd439d930e3794a1842, type: 3}
+    volume: 0.124
     pitch: 1
     loop: 1
     source: {fileID: 0}
